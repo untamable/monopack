@@ -1,6 +1,6 @@
 {
   "name": "@mablemarket/monopack",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A JavaScript bundler for node.js monorepo applications",
   "main": "build/monopack.js",
   "monopack-source": "src/monopack.js",
@@ -8,7 +8,7 @@
   "author": "Florent Le Gall <florent.legall@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@mablemarket/monopack-cli": "^0.2.6"
+    "@mablemarket/monopack-cli": "^0.2.7"
   },
   "bin": {
     "monopack": "./bin/monopack.js"
