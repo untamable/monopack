@@ -1,4 +1,4 @@
 /**
  * @flow
  */
-require('monopack-cli/src/run-cli');
+require('@mablemarket/monopack-cli/src/run-cli');

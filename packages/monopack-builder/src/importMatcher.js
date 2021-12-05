@@ -18,7 +18,7 @@ export function importMatcher(
     return { type: 'INLINE' };
   }
 
-  if (request.startsWith('.')) {
+  if (request.startsWith('.') || request.startsWith('#')) {
     return { type: 'INLINE' };
   }
 

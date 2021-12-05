@@ -8,10 +8,16 @@ import fsCopyFile from 'fs-copy-file';
 import chalk from 'chalk';
 import tmp from 'tmp-promise';
 import sortJson from 'sort-json';
-import { build, type MonopackBuilderParams } from 'monopack-builder';
-import DependencyCollector from 'monopack-dependency-collector';
-import { executeChildProcess, YARN_COMMAND } from 'monopack-process';
-import { getMonopackConfig } from 'monopack-config';
+import {
+  build,
+  type MonopackBuilderParams,
+} from '@mablemarket/monopack-builder';
+import DependencyCollector from '@mablemarket/monopack-dependency-collector';
+import {
+  executeChildProcess,
+  YARN_COMMAND,
+} from '@mablemarket/monopack-process';
+import { getMonopackConfig } from '@mablemarket/monopack-config';
 
 import displayCollectedDependencies from './display-collected-dependencies';
 

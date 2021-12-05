@@ -1,7 +1,7 @@
 // @flow
 import path from 'path';
 
-import { aMonorepo, aPackage } from 'monopack-repo-builder';
+import { aMonorepo, aPackage } from '@mablemarket/monopack-repo-builder';
 
 import DependencyCollector from '../index';
 

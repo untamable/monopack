@@ -63,7 +63,7 @@ You can then use it on your project
 
 With yarn
 
-    $ yarn run monopack
+    $ yarn run @mablemarket/monopack
 
 With npm
 

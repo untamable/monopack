@@ -5,7 +5,7 @@ module.exports = {
   },
   testRegex: '((\\.|/)(test|spec))\\.jsx?$',
   moduleNameMapper: {
-    '^(monopack-[^/]*)': '<rootDir>/packages/$1/src',
+    '^@mablemarket/(monopack-[^/]*)': '<rootDir>/packages/$1/src',
   },
   collectCoverageFrom: [
     '**/src/**/*.js',

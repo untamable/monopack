@@ -2,8 +2,8 @@
 import fs from 'fs';
 import path from 'path';
 
-import { executeChildProcess } from 'monopack-process';
-import { aMonorepo } from 'monopack-repo-builder';
+import { executeChildProcess } from '@mablemarket/monopack-process';
+import { aMonorepo } from '@mablemarket/monopack-repo-builder';
 
 import { monopack } from './monopack-helper';
 

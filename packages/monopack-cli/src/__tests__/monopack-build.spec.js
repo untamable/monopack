@@ -2,7 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { aMonorepo, aPackage } from 'monopack-repo-builder';
+import { aMonorepo, aPackage } from '@mablemarket/monopack-repo-builder';
 
 import { monopack, buildAndRun } from './monopack-helper';
 

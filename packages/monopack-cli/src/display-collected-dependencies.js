@@ -1,7 +1,7 @@
 // @flow
 
 import chalk from 'chalk';
-import type { CollectedDependencies } from 'monopack-dependency-collector';
+import type { CollectedDependencies } from '@mablemarket/monopack-dependency-collector';
 
 type Result =
   | {|

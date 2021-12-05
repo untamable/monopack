@@ -3,4 +3,4 @@
  * @flow
  */
 
-require('monopack-cli/bin/monopack');
+require('@mablemarket/monopack-cli/bin/monopack');

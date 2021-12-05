@@ -1,5 +1,5 @@
 // @flow
-import { aMonorepo } from 'monopack-repo-builder';
+import { aMonorepo } from '@mablemarket/monopack-repo-builder';
 
 import { monopack } from './monopack-helper';
 
