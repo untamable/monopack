@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "A JavaScript bundler for node.js monorepo applications",
   "main": "build/index.js",
   "monopack-source": "src/index.js",
@@ -15,7 +15,7 @@
     "tmp-promise": "1.1.0"
   },
   "devDependencies": {
-    "@mablemarket/monopack-process": "^0.2.6"
+    "@mablemarket/monopack-process": "^0.3.0"
   },
   "gitHead": "92e32038520ceaf6990eb5ae64fd360513e5e4fc"
 }
