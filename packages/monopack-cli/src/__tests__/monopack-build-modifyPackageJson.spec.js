@@ -2,7 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import { aMonorepo } from 'monopack-repo-builder';
+import { aMonorepo } from '@mablemarket/monopack-repo-builder';
 
 import { monopack } from './monopack-helper';
 
@@ -33,6 +33,9 @@ describe('monopack build - modifyPackageJson', () => {
         const packageJson = JSON.parse(
           fs.readFileSync(path.join(buildDirectory, 'package.json'), 'utf8')
         );
+        console.log(packageJson);
+        console.log(packageJson);
+        console.log(packageJson);
         expect(packageJson.modified).toBe(true);
       });
   });

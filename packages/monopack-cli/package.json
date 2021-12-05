@@ -1,5 +1,5 @@
 {
-  "name": "monopack-cli",
+  "name": "@mablemarket/monopack-cli",
   "version": "0.2.6",
   "description": "A JavaScript bundler for node.js monorepo applications",
   "main": "build/index.js",
@@ -13,11 +13,11 @@
     "fs-copy-file": "2.1.2",
     "import-local": "2.0.0",
     "lodash": "4.17.15",
-    "monopack-builder": "^0.2.6",
-    "monopack-config": "^0.2.6",
-    "monopack-dependency-collector": "^0.2.6",
-    "monopack-process": "^0.2.6",
-    "monopack-repo-builder": "^0.2.6",
+    "@mablemarket/monopack-builder": "^0.2.6",
+    "@mablemarket/monopack-config": "^0.2.6",
+    "@mablemarket/monopack-dependency-collector": "^0.2.6",
+    "@mablemarket/monopack-process": "^0.2.6",
+    "@mablemarket/monopack-repo-builder": "^0.2.6",
     "sort-json": "2.0.0",
     "source-map-support": "0.5.16",
     "tmp-promise": "1.1.0",
@@ -27,7 +27,7 @@
     "monopack": "./bin/monopack.js"
   },
   "devDependencies": {
-    "monopack-repo-builder": "^0.2.0-0"
+    "@mablemarket/monopack-repo-builder": "^0.2.0-0"
   },
   "yargs": {
     "boolean-negation": false

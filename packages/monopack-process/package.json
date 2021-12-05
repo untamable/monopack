@@ -1,5 +1,5 @@
 {
-  "name": "monopack-process",
+  "name": "@mablemarket/monopack-process",
   "version": "0.2.6",
   "description": "A JavaScript bundler for node.js monorepo applications",
   "main": "build/index.js",

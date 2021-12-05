@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 import Bluebird from 'bluebird';
-import { aMonorepo, aPackage } from 'monopack-repo-builder';
+import { aMonorepo, aPackage } from '@mablemarket/monopack-repo-builder';
 
 import DependencyCollector from '../index';
 

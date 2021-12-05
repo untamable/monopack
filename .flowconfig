@@ -11,7 +11,7 @@ custom-flow-typed
 
 [options]
 suppress_comment= \\(.\\|\n\\)*\\$FlowIgnore
-module.name_mapper='\(monopack-[^/]*\)' -> '<PROJECT_ROOT>/packages/\1/src/index.js'
+module.name_mapper='\(@mablemarket/monopack-[^/]*\)' -> '<PROJECT_ROOT>/packages/\1/src/index.js'
 include_warnings=true
 emoji=true
 munge_underscores=true

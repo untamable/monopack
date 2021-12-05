@@ -1,4 +1,4 @@
 // @flow
-import cli from 'monopack-cli';
+import cli from '@mablemarket/monopack-cli';
 
 module.exports = cli;

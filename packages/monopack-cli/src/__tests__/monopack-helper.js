@@ -1,6 +1,6 @@
 // @flow
-import { executeChildProcess } from 'monopack-process';
-import type { ExitOrSignal } from 'monopack-process';
+import { executeChildProcess } from '@mablemarket/monopack-process';
+import type { ExitOrSignal } from '@mablemarket/monopack-process';
 
 import { main } from '../main';
 

@@ -8,7 +8,7 @@ import {
   executeChildProcessOrFail,
   type ExecuteChildResult,
   YARN_COMMAND,
-} from 'monopack-process';
+} from '@mablemarket/monopack-process';
 
 const writeFile: (
   string | Buffer | number,
